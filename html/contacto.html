@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="icon" href="../iconos/LOGO.png">
+    <link rel="font" href="baronneu">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../css/estilocontacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&amp;family=Bungee+Shade&amp;family=Fredoka+One&amp;family=Indie+Flower&amp;family=Jost:wght@100&amp;family=Vast+Shadow&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8efb435a74.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navegador">
+                <a href="../index.html"> <img src="../imagenes/LOGO.png"></a>
+                <a href="../index.html" class="underlinea"><i class="fa brands fa-check"></i>INICIO</a>
+                <a href="arcadeargentinatienda.html" class="underlinea"><i class="fa brands fa-check"></i>CONSOLAS</a>
+                <a href="preguntas.html" class="underlinea"><i class="fa brands fa-check"></i>PREGUNTAS FRECUENTES</a>
+                <a href="#contacto" class="underlinea"><i class="fa brands fa-check"></i>CONTACTO</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        
+        <form action="" id="form" name="formulario" method="post" onchange="validate_form();">
+            <h1><center>DEJANOS TU MENSAJE O CONSULTA</center></h1>
+            
+            <div>
+                <label for="nombre">Nombre</label>
+                
+                </div>
+            <div>
+             <input class="control" type="text" name="nombre" id="nombre" maxlength="30" placeholder="Ingrese Nombre">
+            </div>
+            <div>
+                <label for="apellido">Apellido</label>
+            </div>
+            <div>
+                <input class="control" type="text" name="apellido" id="apellido" maxlength="30" placeholder="Ingrese Apellido">
+            </div>
+              <div>
+                <label for="email">Email</label>
+            </div>
+            <div>
+                <input class="control" type="text" name="email" id="email" placeholder="Ingrese Email">
+            </div>
+            <div>
+                <label for="mensaje"></label>Mensaje</label>
+            </div>
+            <div>
+                <textarea class="control" name="mensaje" id="mensaje" cols="30" rows="10">Escribe tu consulta</textarea>
+            </div>
+            <div>
+                <label for="check"><p>¿Cómo nos conoció?</p></label>
+            </div>
+            <div>
+                <input class="opcion" type="radio" name="conoce" id="redes" value="redes"> Redes sociales
+                <input class="opcion" type="radio" name="conoce" id="recomen" value="recomen"> Recomendación
+                <input class="opcion" type="radio" name="conoce" id="otro" value="otro"> Otro
+            </div>
+            <div>
+                <input class="boton" type="submit" id="btn" name="btn" value="Enviar">
+            </div>
+        </form>
+        <div class="Mapa">
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3271.5297436859937!2d-57.931878999999995!3d-34.918249!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7e8f968a3d5%3A0x9b720432a1cd38e0!2sEsquina%20Bodeg%C3%B3n!5e0!3m2!1ses!2sar!4v1692928363555!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="local">
+                <h3><center>LOCAL</center></h3>
+                <p><center>En calle 2 entre 63 y 64, N° 1516. La Plata. Buenos Aires.</center></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container1">
+            <div class="text1">
+              <h4>Seguinos en:&nbsp;</h4>
+              <h4 class="word wisteria">Facebook.</h4>
+              <h4 class="word belize">Instagram.</h4>
+              <h4 class="word blue">Twitter.<h4>
+              <h4 class="word green">WhatsApp.</h4>
+            </div>
+           </div>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i _ngcontent-tau-c135="" class="fab fa-whatsapp"></i></a>
+        </div>
+        <div class="datos">
+         <p class="black">Copyright 2023 © <b>ARCADE ARGENTINA</b> todos los derechos reservados</p>
+            <p class="black">Diseñado por Grupo 6 comisión 23520</p>
+        </div>
+    </footer>    
+    <script src="../js/validacion.js"></script>
+</body>
+</html>
