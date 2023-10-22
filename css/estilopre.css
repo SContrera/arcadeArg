@@ -125,6 +125,9 @@ h3 {
     font-size: 2.5vw;
     padding:15px;
 }
+.redes i{
+    padding: 10px;
+}
 .text {
     background-color: aliceblue;
     width: 90%;
