@@ -1,16 +1,31 @@
-$(document).ready(function(){ 
-    $(window).scroll(function(){ 
-        if ($(this).scrollTop() > 500) { 
-            $('.fa-arrow-up').fadeIn(); 
-        } else { 
-            $('.fa-arrow-up').fadeOut(); 
-        } 
-    }); 
-    $('.fa-arrow-up').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 600); 
-        return false; 
-    }); 
-});
+document.getElementById("button-up").addEventListener("click", scrollUp);
+
+function scrollUp(){
+
+    let currentScroll = document.documentElement.scrollTop;
+
+    if (currentScroll > 0){
+        window.requestAnimationFrame(scrollUp);
+        window.scrollTo (0, currentScroll - (currentScroll / 0));
+    }
+}
+
+
+///
+
+buttonUp = document.getElementById("button-up");
+
+window.onscroll = function(){
+
+    let scroll = document.documentElement.scrollTop;
+
+    if (scroll > 700){
+        buttonUp.style.transform = "scale(1)";
+    }else if(scroll < 900){
+        buttonUp.style.transform = "scale(0)";
+    }
+
+}
 let slideIndex = 1;
 showDivs(slideIndex);
 
