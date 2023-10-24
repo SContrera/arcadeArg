@@ -48,6 +48,11 @@ header {
   display: inline-block;
   position: relative;
 }
+section {
+  display: flex; 
+  justify-content: space-around;
+  flex-direction: row;
+}
 form {
   width: 40%;
   background-color: #72B8F3;
