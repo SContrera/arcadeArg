@@ -1,4 +1,4 @@
-![](/Arcade/iconos/Logo.png) 
+![](/iconos/LOGO.png)
 > # ARCADE ARG.
 > ## Codo a Codo full stack python 2023
 > ### Tienda Web de consolas de videojuegos
