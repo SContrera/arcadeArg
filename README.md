@@ -73,8 +73,9 @@ Mapa de google en página de contacto.
 
 ### Desarrollos Futuros y Mejoras Potenciales:
 
-Se considera que es mejorable en muchos aspectos, tales como darle más dinamismo y movimiento, incluso ajustar la respuesta a diferentes tipos de pantalla.
-Se podrían agregar nuevas secciones y ofrecer nuevos productos relacionados.
+Se considera que es mejorable en muchos aspectos, tales como darle más dinamismo y movimiento; incluso ajustar la respuesta a diferentes tipos de pantalla. Intentaremos implementar el uso de grid para maquetear la página.
+ También faltan correciones semánticas, como la de la etiqueta footer, que serán corregidas. Por otro lado, tambien se va a tratar de aplicar las convenciones vistas y explicadas en clase, tal como poner los nombres de las carpetas en inglés.
+Se podrían agregar nuevas secciones y ofrecer nuevos productos relacionados también.
 
 ### Contacto:
 
