@@ -393,7 +393,6 @@ h4 {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    align-content: start;
     
   }
 
