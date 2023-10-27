@@ -97,6 +97,9 @@ i {
      padding: 0.01em 16px;
      font-size: large;
  }
+ .Arcade-container>h2{
+  text-align: center;
+ }
 
  .Arcade-content {
      max-width: 980px;
