@@ -1,6 +1,6 @@
 /**
- * funcion del el evento que realiza el boton
- * resive como parametro el id del <div></div> corrspondiente
+ * funcion del evento que realiza el boton
+ * resibe como parametro el id del <div></div> correspondiente
  * evalua el estado de su elemento
  */
 function myFunction(idTexto){
