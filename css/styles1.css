@@ -21,7 +21,7 @@ a:hover {color: white;}
     color: blueviolet;
     max-width: 100%;
     display: flex;
-    justify-content:space-evenly; 
+    justify-content:space-between; 
     align-items: center;
 }
  
@@ -67,22 +67,22 @@ i {
 
 .contenedor {
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     margin-top: 35px;
     background-color: aliceblue;
-    padding: 35px;
+    padding: 10px;
  }
 
 .marcas{
-     width: 95px;
+     width: 80px;
      height: 45px;
-     margin-right: 90px;
+     /* margin-right: 90px; */
  }
 
  .marcas1{
-     width: 95px;
+     width: 80px;
      height: 45px;
-     margin-right: 90px;
+     /* margin-right: 90px; */
  }
  .titulo {
      max-width: 90px;
