@@ -380,7 +380,7 @@ h4 {
   color: #64b5f6;
 }
 
-@media screen and (min-width: 400px) and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   .navegador {
     flex-direction: column;
   }
@@ -390,9 +390,17 @@ h4 {
   }
 
   .contenedor {
-    flex-direction: column;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    align-content: start;
+    
   }
 
+  .Arcade-container>h2{
+    padding-top: 50px;
+    text-align: center;
+  }
   .marcas,
   .marcas1,
   .titulo {
